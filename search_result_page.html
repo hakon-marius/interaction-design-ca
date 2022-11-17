@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="searchpage for game hub" />
+    <title>search page</title>
+    <link rel="shortcut icon" type="text/css" href="../cross-course-project-hakon-marius/Images/GameHub_Logo.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Russo+One&family=Sedgwick+Ave&family=Ubuntu:ital,wght@0,300;0,400;0,500;1,400&display=swap"
+        rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/94f62694c8.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <a href="index.html" class="logo"><img src="Images/GameHub_Logo.png" alt="gamehubs logo"></a>
+        <a href="login.html" class="login-mobil">login</a>
+        <label for="hamburger-menu" class="hamburgerbars"><i class="fas fa-bars"></i></label>
+        <input type="checkbox" id="hamburger-menu" />
+        <nav>
+            <ul>
+                <li class="dropdown"><a href="games.html" class="games_break_link">games</a>
+                    <ul class="dropdown_hardware">
+                        <li><a href="new_releases.html">new releases</a></li>
+                        <li><a href="#">action</a></li>
+                        <li><a href="#">sports</a></li>
+                        <li><a href="#">vr games</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown"><a href="games.html" class="games_break_link">used games</a>
+                    <ul class="dropdown_hardware">
+                        <li><a href="#">action</a></li>
+                        <li><a href="#">sports</a></li>
+                        <li><a href="#">vr games</a></li>
+                        <li><a href="#">sell games</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown"><a href="hardware.html" class="games_break_link">Hardware</a>
+                    <ul class="dropdown_hardware">
+                        <li><a href="#">hardware</a></li>
+                        <li><a href="#">accesories</a></li>
+                    </ul>
+                </li>
+                <li class="login"><a href="login.html">Login</a></li>
+                <li><a href="#"><span class="searchtool"><i class="fas fa-search"></i></span></a></li>
+                <li><a href="account.html"> <i class="far fa-user"></i></a></li>
+                <li class="searchfield"><input type="text" /></li>
+                <li><a href="search_result_page.html" class="searchbutton">search</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="search_container">
+        <section class="searchfield_btn">
+            <input type="text" id="search" maxlength="35">
+            <button class="search_btn" type="button">
+                search
+            </button>
+        </section>
+        <section class="searchresult">
+            <div class="section_1">
+                <img src="Images/Orginal/GameHub_cover_furious_1200.jpg" class="search_img" alt="furious game cover">
+            </div>
+            <div class="section_2">
+                <h1 class="searchtext">furious</h1>
+                <p class="searchtext">playbox 4k</p>
+                <p class="searchtext">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+            </div>
+        </section>
+    </main>
+    <section class="social-media">
+        <h2>follow us on social media</h2>
+        <div class="social-media-icons">
+            <a href="https://accounts.snapchat.com" class="snapchat"><i class="fab fa-snapchat-square"></i></a>
+            <a href="https://www.facebook.com/" class="facebook"><i class="fab fa-facebook-square"></i></a>
+            <a href="https://www.instagram.com/" class="snapchat"><i class="fab fa-instagram"></i></a>
+        </div>
+    </section>
+    <footer>
+        <section class="footer_section_1">
+            <div>
+                <a href="index.html" class="logo-footer"><img src="Images/GameHub_logo.png" alt="gamehubs logo"></a>
+            </div>
+            <div class="footerstyle">
+                <h4>About Game Hub</h4>
+                <p><a href="#">company</a></p>
+                <p><a href="#">carrers</a></p>
+            </div>
+            <div class="footerstyle">
+                <h4>products</h4>
+                <p><a href="#">games</a></p>
+                <p><a href="#">used games</a></p>
+            </div>
+            <div class="footerstyle">
+                <p class="signup"><a href="#">sign up</a></p>
+                <p class="contactbold"><a href="contact.html">contact us</a></p>
+            </div>
+            <div class="footerstyle">
+                <p class="visitbold">visit</p>
+                <p>carl johansgate 19</p>
+                <p>1316 oslo</p>
+            </div>
+        </section>
+        <section class="footer_section_2">
+            <h4> &copy; 2022 game hub, inc, all rights reserved</h4>
+        </section>
+    </footer>
+</body>
+
+</html>

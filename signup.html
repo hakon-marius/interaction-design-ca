@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="sign up page for game hub" />
+    <title>sign up</title>
+    <link rel="shortcut icon" type="text/css" href="../cross-course-project-hakon-marius/Images/GameHub_Logo.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Sedgwick+Ave&family=Ubuntu:ital,wght@0,300;0,400;0,500;1,400&display=swap"
+        rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/94f62694c8.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <a href="index.html" class="logo"><img src="Images/GameHub_Logo.png" alt="gamehubs logo"></a>
+        <a href="Login.html" class="login-mobil">login</a>
+        <label for="hamburger-menu" class="hamburgerbars"><i class="fas fa-bars"></i></label>
+        <input type="checkbox" id="hamburger-menu" />
+        <nav>
+            <ul>
+                <li class="dropdown"><a href="games.html" class="games_break_link">games</a>
+                    <ul class="dropdown_hardware">
+                        <li><a href="new_releases.html">new releases</a></li>
+                        <li><a href="#">action</a></li>
+                        <li><a href="#">sports</a></li>
+                        <li><a href="#">vr games</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown"><a href="games.html" class="games_break_link">used games</a>
+                    <ul class="dropdown_hardware">
+                        <li><a href="#">action</a></li>
+                        <li><a href="#">sports</a></li>
+                        <li><a href="#">vr games</a></li>
+                        <li><a href="#">sell games</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown"><a href="hardware.html" class="games_break_link">Hardware</a>
+                    <ul class="dropdown_hardware">
+                        <li><a href="#">hardware</a></li>
+                        <li><a href="#">accesories</a></li>
+                    </ul>
+                </li>
+                <li class="login"><a href="login.html">Login</a></li>
+                <li><a href="#"><span class="searchtool"><i class="fas fa-search"></i></span></a></li>
+                <li><a href="account.html"> <i class="far fa-user"></i></a></li>
+                <li class="searchfield"><input type="text" /></li>
+                <li><a href="search_result_page.html" class="searchbutton">search</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="login_container signup_container">
+            <div class="Signup_image_container">
+                <img src="Images/large_images/world-collapse-doomsday-scene-digital-painting_desktop.jpg"
+                    class="login_doomsday_image doomsday_signup" alt="doomsday picture, men flying with burning rocks">
+            </div>
+            <section class="login_section  hidden">
+                <div class="login_or_signup">
+                    <a href="#">
+                        <h1>login</h1>
+                    </a>
+                    <a href="#">
+                        <h2>sign up</h2>
+                    </a>
+                </div>
+                <label for="username">user name</label>
+                <input type="text" id="username" name="username">
+                <label for="pass">password</label>
+                <input type="password" id="pass" name="password">
+                <input type="checkbox" id="remember_me" name="remember_me">
+                <label for="remember_me">remember me</label>
+                <a href="#" class="cta_send">login</a>
+            </section>
+            <section class="sign_up_section">
+                <a href="signup.html">
+                    <h1 class="active">sign up</h1>
+                </a>
+                <label for="fname">enter first name</label>
+                <input type="fname" id="fname" placeholder="first name" name="fname">
+                <label for="lname">enter last name</label>
+                <input type="lname" id="lname" placeholder="last name" name="lname">
+                <label for="email">email</label>
+                <input type="email" id="email" placeholder="your email">
+                <label for="choose_user_name">choose user name</label>
+                <input type="choose_user_name" id="choose_user_name" placeholder="choose user name"
+                    name="choose_user_name">
+                <label for="choose_pass">choose password</label>
+                <input type="choose_password" id="choose_pass" placeholder="choose password" name="choose_password">
+                <label for="confirm_pass">confirm password</label>
+                <input type="confirm_password" id="confirm_pass" placeholder="confirm password" name="confirm_password">
+                <p>for sales membership</p>
+                <label for="add_bank_account" class="add_bank_details">(+)</label>
+                <input type="checkbox" id="add_bank_account" />
+                <div class="bank_account_section">
+                    <label for="bank_account_number">bank account number</label><br>
+                    <input type="text" id="bank_account_number" name="bank_account_number"
+                        placeholder="bank account number">
+                </div>
+                <a href="#" class="cta_send">sign up</a>
+            </section>
+        </div>
+        <section class="social-media">
+            <h2>follow us on social media</h2>
+            <div class="social-media-icons">
+                <a href="#" class="snapchat"><i class="fab fa-snapchat-square"></i></a>
+                <a href="#" class="facebook"><i class="fab fa-facebook-square"></i></a>
+                <a href="#" class="snapchat"><i class="fab fa-instagram"></i></a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section class="footer_section_1">
+            <div>
+                <a href="index.html" class="logo-footer"><img src="Images/GameHub_Logo.png" alt="gamehubs logo"></a>
+            </div>
+            <div class="footerstyle">
+                <h4>About Game Hub</h4>
+                <p><a href="#">company</a></p>
+                <p><a href="#">carrers</a></p>
+            </div>
+            <div class="footerstyle">
+                <h4>products</h4>
+                <p><a href="#">games</a></p>
+                <p><a href="#">used games</a></p>
+            </div>
+            <div class="footerstyle">
+                <p class="signup"><a href="#">sign up</a></p>
+                <p class="contactbold"><a href="contact.html">contact us</a></p>
+            </div>
+            <div class="footerstyle">
+                <p class="visitbold">visit</p>
+                <p>carl johansgate 19</p>
+                <p>1316 oslo</p>
+            </div>
+        </section>
+        <section class="footer_section_2">
+            <h4> &copy; 2022 game hub, inc, all rights reserved</h4>
+        </section>
+    </footer>
+</body>
+
+</html>
