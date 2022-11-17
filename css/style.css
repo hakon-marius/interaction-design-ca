@@ -18,7 +18,7 @@ body p {
 }
 
 :root {
-    --base_color: #1579c1;
+    --base_color: #395B7D;
 }
 
 h1,
@@ -58,8 +58,8 @@ header {
 /*Links*/
 
 .logo img {
-    height: 85px;
-    margin: 15px 0px -10px 10px;
+    height: 65px;
+    margin: 16px 0px -15px 24px;
 }
 
 a {
@@ -224,7 +224,7 @@ padding-top: 75px;*/
 }
 
 footer {
-    background-color: #96968D;
+    background-color: #eeeee3;
 }
 
 .logo-footer img {
@@ -308,6 +308,9 @@ footer {
     display: block;
     height: 350px;
     position: relative;
+    width: 98%;
+    margin: 30px auto;
+    background-color: #000;
 }
 
 /*Home page dekorations only for viewport +1200px*/
@@ -358,10 +361,14 @@ footer {
     background-image: url(../Images/vr-background-image\ copy.jpg);
     background-size: cover;
     display: block;
-    height: 600px;
-    margin-top: 20px;
+    height: 500px;
+    margin-top: 30px;
     display: none;
     position: relative;
+    width: 76%;
+    margin: auto;
+    border-radius: 15px;
+
 }
 
 .vr-backgroundpicture h1 {
@@ -387,10 +394,14 @@ footer {
 
 .social-media-icons {
     padding-bottom: 25px;
-    font-size: 100px;
     color: #fff;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+}
+
+.fab {
+    padding: 19px;
+    ;
 }
 
 .game-picker {
@@ -417,6 +428,7 @@ footer {
     bottom: -25px;
     left: 40px;
 }
+
 
 .vr-paragraph {
     font-weight: bold;
@@ -1135,7 +1147,7 @@ h2 {
     }
 
     .social-media-icons {
-        font-size: 150px;
+        font-size: 50px;
     }
 
     nav ul {
@@ -1385,6 +1397,10 @@ h2 {
         right: 2px;
         justify-content: space-between;
         padding: 3px;
+    }
+
+    .furious_headers {
+        height: 69vh;
     }
 
     .shopping_container {
