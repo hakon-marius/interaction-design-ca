@@ -96,3 +96,119 @@ tr {
     justify-content: center;
     display: flex;
 }
+
+
+@media (min-width: 1200px) {
+
+    /*Furious add to cart(shopping cart +1200px*/
+
+    .information_field_over_1200px {
+        display: inline-flex;
+        background-color: #d2d2c6;
+        height: 23px;
+        width: 900px;
+        position: relative;
+        top: -51px;
+        right: 2px;
+        justify-content: space-between;
+        padding: 3px;
+    }
+
+    .furious_headers {
+        height: 69vh;
+    }
+
+    .shopping_container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .furious_img_add_to_cart {
+        width: 180px;
+        position: relative;
+        top: -110px;
+        left: 6px;
+    }
+
+    .heading_hide_your_under_1200px {
+        display: inline-flex;
+    }
+
+    .heading_add_to_cart_page {
+        position: relative;
+        top: -174px;
+        right: 195px;
+    }
+
+    .tabel_pointer {
+        cursor: pointer;
+    }
+
+    .container_outline_1200px {
+        width: 900px;
+        height: 260px;
+        outline: var(--base_color) solid 3px;
+        position: relative;
+        top: 230px;
+    }
+
+    .purchase {
+        position: relative;
+        top: 330px;
+        left: 290px;
+    }
+
+
+    .right_price {
+        position: relative;
+        top: -264px;
+        right: 90px;
+    }
+
+    .furious_game_information {
+        display: inline-flex;
+        position: relative;
+        top: -264px;
+        left: 138px;
+    }
+
+    .shipping {
+        float: right;
+        top: -58px;
+    }
+
+    .left_title_furious {
+        position: relative;
+        top: -318px;
+        left: 203px;
+    }
+
+    .left_quantity,
+    .remove_total {
+        display: none;
+    }
+
+    .right_totalprice {
+        display: inline;
+        top: -421px;
+        left: 400px;
+        font-size: 16px;
+    }
+
+    .information_field_over_1200px p:last-child {
+        position: relative;
+        right: 100px;
+    }
+
+    .information_field_over_1200px p:nth-child(2) {
+        position: relative;
+        right: -115px;
+    }
+
+    .table {
+        top: -295px;
+        left: -270px;
+    }
+
+}

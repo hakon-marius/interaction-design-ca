@@ -135,7 +135,16 @@
 }
 
 
-@media (min-width: 600px) {}
+@media (min-width: 600px) {
+
+    .backgroundpic {
+        height: 550px;
+    }
+
+    .cta-view-more {
+        display: inline-flex;
+    }
+}
 
 
 @media (min-width: 1200px) {
@@ -155,6 +164,13 @@
     .backgroundpic {
         height: 550px;
         margin-bottom: 30px;
+    }
+
+    .border1,
+    .border2,
+    .border3,
+    .border4 {
+        display: inline;
     }
 
 }

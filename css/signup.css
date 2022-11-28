@@ -1,0 +1,25 @@
+@media (min-width: 1200px) {
+
+    .hidden {
+        display: none;
+    }
+
+    .sign_up_section {
+        display: flex;
+        flex: 1;
+        margin-right: 20%;
+        max-width: 400px;
+
+    }
+
+    .Signup_image_container {
+        display: flex;
+        align-items: flex-end;
+        flex: 1;
+        margin-right: 40px;
+    }
+
+    .signup_container {
+        height: 130vh;
+    }
+}
