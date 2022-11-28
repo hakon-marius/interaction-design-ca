@@ -1,0 +1,98 @@
+/*Furious add to cart( furious shopping cart, quantity <600px*/
+.main_container_add_to_cart {
+    height: 140vh;
+}
+
+.information_field_over_1200px {
+    display: none;
+}
+
+.shopping_container {
+    display: flex;
+    flex-direction: column;
+    width: min(80%, 450px);
+    margin: auto;
+    font-family: 'ubuntu', sans-serif;
+    font-weight: 600;
+}
+
+.shopping_container>* {
+    margin-bottom: 12px;
+
+}
+
+.shopping_container h1 {
+    margin: 20px 0px 10px 0px;
+}
+
+.shipping {
+    margin: 0px auto 79px auto;
+    font-size: 17px;
+    font-weight: 400;
+    display: flex;
+    position: relative;
+    top: 78px;
+    left: 20px;
+}
+
+.heading_hide_your_under_1200px,
+.furious_game_information {
+    display: none;
+}
+
+.table th,
+tr {
+    padding: 5px;
+    border: 1px solid;
+    border-radius: 10px;
+    margin-left: 0%;
+}
+
+.table {
+    position: relative;
+    top: 43px;
+    justify-content: right;
+    display: flex;
+    left: 75px;
+}
+
+.furious_img_add_to_cart {
+    width: min(100%, 450px);
+    margin: 10px 0px 10px 0px;
+}
+
+.purchase {
+    background-color: var(--base_color);
+    color: #fff;
+    margin-bottom: 100px;
+}
+
+.purchase:hover {
+    background-color: #fff;
+    border-style: solid;
+    color: var(--base_color);
+}
+
+.left_title_furious {
+    float: left;
+}
+
+.right_price {
+    float: right;
+}
+
+.left_quantity {
+    float: left;
+    position: relative;
+    top: 49px;
+    right: 59px;
+    font-size: 27px;
+}
+
+.right_totalprice {
+    top: 25px;
+    position: relative;
+    font-size: 25px;
+    justify-content: center;
+    display: flex;
+}

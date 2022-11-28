@@ -1,0 +1,142 @@
+/*furious game <600px*/
+
+.furious {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    margin: 0px auto 25px auto;
+}
+
+.furious h1,
+h2 {
+    text-align: center;
+}
+
+.furious h1 {
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.furious_left {
+    float: left;
+}
+
+.price_right {
+    float: right;
+    font-size: 20px;
+}
+
+.image_class {
+    display: flex;
+    justify-content: center
+}
+
+.furious_game_img {
+    width: min(80%, 450px)
+}
+
+.section_text>* {
+    display: flex;
+    flex-direction: column;
+    width: min(80%, 450px);
+    margin: auto;
+}
+
+.ratings_header {
+    margin-top: 25px;
+    font-weight: 700;
+}
+
+.game_and_price_info {
+    flex-direction: row;
+    flex-direction: start and end;
+    display: inline-flex;
+    width: min(80%, 450px);
+    justify-content: center;
+    margin: auto;
+}
+
+.add_to_cart {
+    text-align: center;
+    padding: 10px 35px 10px 35px;
+    background-color: var(--base_color);
+    font-family: 'Russo One', sans-serif;
+    border-radius: 10px;
+    margin: 15px auto 25px auto;
+}
+
+.name_and_price {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'ubuntu', sans-serif;
+    font-weight: 900;
+    font-size: 25px;
+}
+
+.name_and_price p {
+    margin-top: -10px;
+}
+
+
+@media (min-width: 1200px) {
+
+    /*furious game +1200px*/
+
+    .furious {
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .section_text {
+        position: relative;
+        top: 100px;
+        max-width: 550px;
+        flex: 2;
+        margin-bottom: 1px;
+        font-size: 16px;
+    }
+
+    .furious_game_img {
+        width: 450px;
+        margin: 60px 0px 70px 0px;
+        flex: 1;
+    }
+
+    .ratings {
+        position: relative;
+        top: 105px;
+        margin-bottom: 25px;
+    }
+
+    .add_to_cart {
+        position: relative;
+        top: 365px;
+        right: 112px;
+    }
+
+    .furious h1 {
+        position: relative;
+        font-size: 19px;
+        top: 42px;
+        left: 620px;
+    }
+
+    .furious h2 {
+        position: relative;
+        top: 42px;
+        left: 651px;
+    }
+
+    .furious_left {
+        display: none;
+    }
+
+    .name_and_price {
+        color: red;
+        position: relative;
+        top: 360px;
+        font-weight: bolder;
+    }
+
+}

@@ -1,0 +1,160 @@
+/*homepage <600px */
+
+.next_level_glasses_vr_section {
+    color: #fff;
+}
+
+.vr-cta-view-more {
+    position: absolute;
+    background-color: #FC1222;
+    border-radius: 10px;
+    padding: 15px 30px 15px 30px;
+    border-style: solid;
+    border-color: #fff;
+    font-size: 1.9em;
+    bottom: -40px;
+    right: 20px;
+}
+
+.therealdeal {
+    position: absolute;
+    top: 50px;
+    left: 27px;
+    color: #fff;
+}
+
+.tradeinoldgames {
+    color: #FFF;
+    position: absolute;
+    bottom: 12px;
+    left: 18px;
+}
+
+.backgroundpic {
+    background-image: url(../Images/large_images/world-collapse-doomsday-scene-digital-painting_desktop_cropped.jpg);
+    background-size: cover;
+    display: block;
+    height: 350px;
+    position: relative;
+    width: 98%;
+    margin: 30px auto;
+    background-color: #000;
+}
+
+/*Home page dekorations only for viewport +1200px*/
+
+.border1,
+.border2,
+.border3,
+.border4 {
+    border: solid #fff;
+    position: absolute;
+    display: none;
+}
+
+.border1 {
+    top: 100px;
+    right: 300px;
+    width: 3px;
+    height: 280px;
+}
+
+.border2 {
+    top: 100px;
+    right: 300px;
+    width: 23%;
+    height: 3px;
+}
+
+.border3 {
+    bottom: 100px;
+    left: 65px;
+    width: 48%;
+    height: 3px;
+}
+
+.border4 {
+    left: 65px;
+    bottom: 100px;
+    width: 3px;
+    height: 280px;
+}
+
+/* End dekorations Homepage only for viewport +1200px*/
+
+/*VR section home page <600px */
+
+.vr-backgroundpicture {
+    background-image: url(../Images/vr-background-image\ copy.jpg);
+    background-size: cover;
+    display: block;
+    height: 500px;
+    margin-top: 30px;
+    display: none;
+    position: relative;
+    width: 76%;
+    margin: auto;
+    border-radius: 15px;
+
+}
+
+.vr-backgroundpicture h1 {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    font-size: 60px;
+}
+
+
+.games-image {
+    width: 250px;
+    height: 250px;
+    border-radius: 15px;
+}
+
+
+.vr-paragraph {
+    font-weight: bold;
+}
+
+.cta-view-more {
+    background-color: var(--base_color);
+    border-style: solid;
+    border-radius: 10px;
+    padding: 5px 15px 5px 15px;
+    font-size: 1.5em;
+    font-family: 'Russo One', sans-serif;
+    margin-top: 20px;
+    /*display: none;*/
+}
+
+.cta-view-more:hover {
+    background-color: #fff;
+    border-style: solid;
+    color: var(--base_color);
+}
+
+
+@media (min-width: 600px) {}
+
+
+@media (min-width: 1200px) {
+
+    /*home/index page +1200px*/
+    .vr-backgroundpicture {
+        background-image: url(../Images/vr-background-image_copy_adjusted\ copy.jpg);
+        display: block;
+        margin-bottom: 120px;
+    }
+
+    .vr-cta-view-more:hover {
+        border-color: #D31421;
+        background-color: #D31421;
+    }
+
+    .backgroundpic {
+        height: 550px;
+        margin-bottom: 30px;
+    }
+
+}

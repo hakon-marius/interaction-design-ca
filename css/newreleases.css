@@ -1,0 +1,67 @@
+.new_releases_h1 {
+    margin: 70px 30px 20px 30px;
+    font-size: 40px;
+    flex: 1 1 100%;
+}
+
+.new_releases_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    row-gap: 30px;
+    margin-bottom: 100px;
+}
+
+.new_releases_games_1 {
+    width: min(80%, 550px);
+    text-align: center;
+    margin: auto;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.new_releases_games_1 img {
+    width: min(80%, 550px);
+    margin: 40px 0 10px 0;
+}
+
+.new_releases_games_1 p {
+    font-family: 'ubuntu', sans-serif;
+    font-weight: bold;
+}
+
+.name_price {
+    width: min(80%, 550px);
+    margin: auto;
+}
+
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
+.buy_now {
+    background-color: var(--base_color);
+    position: relative;
+    top: 26px;
+    min-width: 60px;
+    display: inline-block;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 5px 15px 5px 15px;
+    font-size: 1.5em;
+    font-family: 'Russo One', sans-serif;
+    margin-top: 10px;
+}
+
+
+@media (min-width: 1200px) {
+
+    .new_releases_container {
+        flex-direction: row;
+    }
+
+}

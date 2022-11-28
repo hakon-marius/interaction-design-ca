@@ -1,0 +1,119 @@
+/*login page <600px*/
+
+.login_container {
+    height: 110vh;
+}
+
+.login_container>* {
+    display: flex;
+    flex-direction: column;
+    width: min(65%, 280px);
+    margin: auto;
+}
+
+.login_container h1 {
+    margin: 40px 20px 40px 0px
+}
+
+.login_container h2 {
+    margin: 40px 0px 40px 0px
+}
+
+.login_container a {
+    color: #000;
+}
+
+.login_container .cta_send {
+    color: #fff;
+}
+
+.login_container .cta_send:hover {
+    background-color: #fff;
+    border-style: solid;
+    color: var(--base_color);
+}
+
+.login_or_signup {
+    display: flex;
+    flex-direction: row;
+}
+
+.login_container input {
+    height: 30px;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px 0px 25px 0px;
+    width: 100%;
+}
+
+.fa-circle-plus {
+    background-color: #D31421;
+    width: 100px;
+}
+
+.login_doomsday_image {
+    display: none;
+}
+
+.hidden {
+    display: none;
+}
+
+#remember_me {
+    position: relative;
+    top: 8px;
+    margin-right: 5px;
+    width: auto;
+}
+
+.bank_account_section {
+    display: none;
+}
+
+#add_bank_account:checked~.bank_account_section {
+    display: block;
+}
+
+#add_bank_account {
+    display: none;
+}
+
+.add_bank_details {
+    cursor: pointer;
+    background-color: var(--base_color);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+
+
+
+
+@media (min-width: 1200px) {
+    /*login +1200px*/
+
+    .login_container {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .login_doomsday_image_container {
+        display: flex;
+        margin-right: 5%;
+    }
+
+    .login_doomsday_image {
+        width: 250px;
+        height: 250px;
+        border-radius: 25px;
+        display: inline-flex;
+    }
+
+    .login_section {
+        display: flex;
+        margin-left: 0%;
+    }
+
+
+}

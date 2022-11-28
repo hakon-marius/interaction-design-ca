@@ -1,0 +1,159 @@
+/*account <600px*/
+
+.account_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.account_container h1 {
+    margin: 25px 0px 35px 0px;
+}
+
+.account_img_under1200px {
+    height: min(150px, 250px);
+    width: min(150px, 250px);
+    border-radius: 5px;
+}
+
+.signupfields_account {
+    width: min(230px, 400px);
+    margin: 30px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.img_background {
+    height: min(170px, 280px);
+    width: min(180px, 290px);
+    border-radius: 5px;
+    background-color: rgb(199, 199, 243);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signupfields_account label {
+    color: var(--base_color);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.signupfields_account input {
+    margin: 10px 0px 20px 0px;
+    border-color: var(--base_color);
+    border-radius: 5px;
+    line-height: 30px;
+    padding: 10px;
+    height: 35px;
+    background-color: #daedfa;
+    width: min(230px, 400px);
+}
+
+.account_information_cta {
+    margin-bottom: 65px;
+}
+
+.account_information_cta a {
+    display: flex;
+    background-color: var(--base_color);
+    color: #fff;
+    height: 36px;
+    width: min(230px, 400px);
+    margin: 30px auto 20px auto;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Russo One', sans-serif;
+}
+
+.account_information_cta a:hover {
+    background-color: #fff;
+    border-style: solid;
+    color: var(--base_color);
+}
+
+.header_salesmembership {
+    text-align: center;
+    font-family: 'Russo One', sans-serif;
+    font-size: 18px;
+    color: var(--base_color);
+}
+
+.account_img_over1200px {
+    display: none;
+}
+
+.header_salesmembership_under600px {
+    display: none;
+}
+
+
+
+
+
+@media (min-width: 1200px) {
+
+    /*account page +1200px */
+
+    .accountpage {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        height: 100vh;
+        align-items: center;
+        padding-top: 120px;
+    }
+
+    .signupfields_account {
+        margin: 30px 0px 0px 40px;
+        position: relative;
+        top: 39px;
+    }
+
+    .header_salesmembership {
+        position: relative;
+        top: 40px;
+    }
+
+    .account_img_over1200px {
+        display: block;
+        height: min(150px, 250px);
+        width: min(150px, 250px);
+        border-radius: 37px;
+        position: relative;
+        top: -567px;
+        left: -235px;
+    }
+
+    .account_img_under1200px,
+    .img_background {
+        display: none;
+
+    }
+
+    .account_container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 25px;
+    }
+
+    .account_information_cta {
+        position: relative;
+        top: 40px;
+    }
+
+    .header_my_account_page {
+        position: relative;
+        top: -64px;
+        right: 242px;
+    }
+
+    .account_information_cta_over_1200px {
+        display: none;
+    }
+
+
+}
